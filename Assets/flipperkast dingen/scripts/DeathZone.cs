@@ -18,5 +18,7 @@ public class DeathZone : MonoBehaviour {
     {
         Destroy(c.gameObject);//deletes object that collides with the one with this component
         GameObject.Find("Manager").GetComponent<GameManager>().lives -= 1;//takes one life 
+
+        GameObject.Find("launcher").GetComponent<PullSpring>().SpawnNewBall();
     }
 }

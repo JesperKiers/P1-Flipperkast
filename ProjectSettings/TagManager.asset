@@ -11,6 +11,7 @@ TagManager:
   - slingshotR
   - ball
   - flipper
+  - deathzone
   layers:
   - Default
   - TransparentFX
